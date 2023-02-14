@@ -1,0 +1,58 @@
+####################
+#                  #
+# Copiar todo esto #
+#                  #
+####################
+# Hecho con gusto por Carla Carolina Perez Hernandez (UAEH)
+
+# Laboratorio - Gestion de datos de red - curaduria de datos
+
+# Objetivo: Explorar la organizacion de los datos
+# ------------------------------------------------------------------------------------------------------
+# En este ejercicio vamos a:
+# 1. Cargar nuestra matriz hipotetica de datos
+# 2. Transformar la matriz en un dataframe
+# 3. Conventir un dataframe en matriz
+
+
+########################################
+# LABORATORIO: Gestion de datos de red #
+########################################
+
+
+# Gestion de datos de red
+# 1. Transformar la matriz en un dataframe
+
+library (EconGeo)
+
+M = as.matrix(
+  read.csv("https://raw.githubusercontent.com/PABalland/ON/master/amz.csv" , 
+           sep = ",", 
+           header = T, 
+           row.names = 1))
+
+
+
+
+#ejemplo de una matriz de RCA con personas y productos/ paises y productos-industrias
+?RCA
+
+
+# La forma mas usual de encontrar los datos
+
+
+
+
+# convertir un dataframe(lista) en matriz
+
+
+
+
+# edge list (lista de aristas(source-target----adyacentes-mis 3 columnas)
+
+
+# Matriz de adyancencia
+
+
+#Buscar Andrea
+
